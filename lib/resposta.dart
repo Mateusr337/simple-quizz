@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Resposta extends StatelessWidget {
-  Resposta(this.texto, this.quandoSelecionado, {super.key});
+  const Resposta(this.texto, this.quandoSelecionado, {super.key});
 
   final String texto;
   final void Function() quandoSelecionado;
